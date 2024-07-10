@@ -61,19 +61,24 @@
 .about-web{
     padding: 50px 220px 0;
     text-align: center;
+    background: #f1f1f1;
 }
 .section-data{
     display: flex;
     justify-content: space-between;
-    padding: 120px 0 0 50px;
+    padding: 30px 0 0 40px;
+    background: #ffffff;
+  
+    margin: 50px 0 0 0;
 
 
 }
 .section-data-middle{
+    padding: 30px 0 30px 0;
     display: flex;
     justify-content: space-evenly;
     width: 800px;
-    height: 230px;
+    height: 170px;
 
    
 
@@ -101,4 +106,58 @@
 }
 .section-tittle2-change {
     width: 500px;
+}
+.inspiration{
+    margin-top: 100px;
+}
+.yt-video{
+    margin-top: 50px;
+    padding: 32px;
+    border: #000000;
+
+}
+.inspiration{
+    text-align: center;
+}
+
+.youtube-video{
+    text-align: center;
+    padding: 50px;
+    border: #000000;
+
+}
+.section-last{
+    text-align: center;
+    
+}
+.section-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 20px;
+}
+.last-button{
+    padding: 10px 10px;
+    color: #000000;
+    background: rgb(255, 255, 255);
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+
+.div-last {
+    color: #ffffff;
+    margin: 50px auto;
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.content-center {
+    text-align: center;
 }
